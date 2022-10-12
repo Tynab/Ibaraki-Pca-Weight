@@ -33,7 +33,7 @@ Friend Module Common
     ''' <summary>
     ''' Check update.
     ''' </summary>
-    Friend Sub ChkUpd()
+    Private Sub ChkUpd()
         If IsNetAvail() AndAlso Not (New WebClient).DownloadString(My.Resources.link_ver).Contains(My.Resources.app_ver) Then
             Show($"「{My.Resources.app_true_name}」新しいバージョンが利用可能！", "更新", OK, Information)
             Run(New FrmUpdate)
@@ -152,25 +152,6 @@ Friend Module Common
     End Function
 
     ''' <summary>
-    ''' Detail Yes/No question (1/0).
-    ''' </summary>
-    ''' <param name="caption">Caption.</param>
-    ''' <returns>Answer value.</returns>
-    Friend Function DtlYNQ(caption As String)
-        TitWarn(caption)
-        ForegroundColor = White
-        Dim value = Val(ReadLine)
-        If value <> 0 Or value <> 1 Then
-            Do Until value = 0 Or value = 1
-                TitWarn(caption)
-                ForegroundColor = Red
-                value = Val(ReadLine)
-            Loop
-        End If
-        Return value
-    End Function
-
-    ''' <summary>
     ''' Direct value to excel.
     ''' </summary>
     ''' <param name="xlApp">Excel application.</param>
@@ -187,7 +168,7 @@ Friend Module Common
     ''' <param name="xlApp">Excel application.</param>
     ''' <param name="cell">Cell address.</param>
     ''' <param name="value">Value.</param>
-    Friend Sub ModVal(xlApp As Microsoft.Office.Interop.Excel.Application, cell As String, value As Object)
+    Private Sub ModVal(xlApp As Microsoft.Office.Interop.Excel.Application, cell As String, value As Object)
         xlApp.Range(cell).Activate()
         xlApp.ActiveCell.FormulaR1C1 = value
         xlApp.ActiveCell.Interior.Color = RGB(0, 176, 240)
@@ -275,6 +256,28 @@ Friend Module Common
             DctVal(xlApp, $"X{row}", title)
             DctVal(xlApp, $"AH{row}", name)
             ModVal(xlApp, $"CM{row}", weight)
+            DctVal(xlApp, $"BA{row}", number)
+        End If
+    End Sub
+
+    ''' <summary>
+    ''' Publish double mod value to excel.
+    ''' </summary>
+    ''' <param name="xlApp">Excel application.</param>
+    ''' <param name="row">Row number.</param>
+    ''' <param name="d">Diameter.</param>
+    ''' <param name="title">Title rebar.</param>
+    ''' <param name="name">Name rebar.</param>
+    ''' <param name="weight">Weight rebar.</param>
+    ''' <param name="price">Price rebar.</param>
+    ''' <param name="number">Number rebar.</param>
+    Friend Sub PubDModVal(xlApp As Microsoft.Office.Interop.Excel.Application, row As String, d As String, title As String, name As String, weight As Double, price As Double, number As Double)
+        If number > 0 Then
+            DctVal(xlApp, $"S{row}", d)
+            DctVal(xlApp, $"X{row}", title)
+            DctVal(xlApp, $"AH{row}", name)
+            ModVal(xlApp, $"CM{row}", weight)
+            ModVal(xlApp, $"CQ{row}", price)
             DctVal(xlApp, $"BA{row}", number)
         End If
     End Sub
@@ -394,17 +397,6 @@ Friend Module Common
     Friend Function HdrDInp(caption As String)
         Intro()
         Return DtlDInp(caption)
-    End Function
-
-    ''' <summary>
-    ''' Header double input description.
-    ''' </summary>
-    ''' <param name="caption">Caption.</param>
-    ''' <param name="description">Description.</param>
-    ''' <returns>Input value.</returns>
-    Friend Function HdrDInpDesc(caption As String, description As String)
-        Intro()
-        Return DtlDInpDesc(caption, description)
     End Function
 
     ''' <summary>

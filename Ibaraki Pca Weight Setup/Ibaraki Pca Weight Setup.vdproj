@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_56E592E421B9481F93F2E8F620A5D929"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -162,6 +168,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B4A8035437C439B88DDA90D7D1599D2"
+            {
+            "SourcePath" = "8:..\\res\\ic.ico"
+            "TargetName" = "8:ic.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_D94F421943E0464695E6D81452035308"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7EC0B179434AE0D78CA748A88BB6DCF5"
             {
             "AssemblyRegister" = "3:1"
@@ -349,15 +375,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ibaraki Pca Weight"
-        "ProductCode" = "8:{1184913F-6514-4F54-854C-FF1F69DAD4DA}"
-        "PackageCode" = "8:{18ED2DC6-4E69-4693-8605-43C6C839AAE0}"
+        "ProductCode" = "8:{FF7D8F5D-3156-4690-B97E-E1C873BB66B9}"
+        "PackageCode" = "8:{A0A7AA53-1667-484B-A8F5-8B1264F7FCAB}"
         "UpgradeCode" = "8:{7EED3D0A-6BD6-433B-95CB-D0C84AD9046E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.10"
+        "ProductVersion" = "8:22.10.12"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -367,7 +393,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -481,7 +507,7 @@
             "Target" = "8:_56E592E421B9481F93F2E8F620A5D929"
             "Folder" = "8:_2747BBE32F56434498AC4BECAED1BBF9"
             "WorkingFolder" = "8:_D94F421943E0464695E6D81452035308"
-            "Icon" = "8:"
+            "Icon" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D0D9464CC2F74508BA4046A7266247E5"
@@ -495,7 +521,7 @@
             "Target" = "8:_56E592E421B9481F93F2E8F620A5D929"
             "Folder" = "8:_1591A5602C4740B793D84881D38B2FB5"
             "WorkingFolder" = "8:_D94F421943E0464695E6D81452035308"
-            "Icon" = "8:"
+            "Icon" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
             "Feature" = "8:"
             }
         }
@@ -909,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_56E592E421B9481F93F2E8F620A5D929"
             {
-            "SourcePath" = "8:..\\Ibaraki Pca Weight\\obj\\Debug\\Ibaraki Pca Weight.exe"
+            "SourcePath" = "8:..\\Ibaraki Pca Weight\\obj\\Release\\Ibaraki Pca Weight.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D94F421943E0464695E6D81452035308"
