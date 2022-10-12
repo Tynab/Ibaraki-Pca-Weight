@@ -104,7 +104,7 @@ Friend Module Common
         If ofd.ShowDialog() = DialogResult.OK Then
             Dim filePath = ofd.FileName
             xlApp.Workbooks.Open(filePath)
-            WtTouhokuPca(xlApp)
+            WtIbarakiPca(xlApp)
             xlApp.ActiveWorkbook.Close(SaveChanges:=True)
             Process.Start(filePath)
         End If
