@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
+        "MsmKey" = "8:_00CBC8FFC1AE4100B3AB3201F524A1EC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -168,7 +168,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B4A8035437C439B88DDA90D7D1599D2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_00CBC8FFC1AE4100B3AB3201F524A1EC"
             {
             "SourcePath" = "8:..\\res\\ic.ico"
             "TargetName" = "8:ic.ico"
@@ -393,7 +393,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
+        "ARPPRODUCTICON" = "8:_00CBC8FFC1AE4100B3AB3201F524A1EC"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -507,7 +507,7 @@
             "Target" = "8:_56E592E421B9481F93F2E8F620A5D929"
             "Folder" = "8:_2747BBE32F56434498AC4BECAED1BBF9"
             "WorkingFolder" = "8:_D94F421943E0464695E6D81452035308"
-            "Icon" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
+            "Icon" = "8:_00CBC8FFC1AE4100B3AB3201F524A1EC"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D0D9464CC2F74508BA4046A7266247E5"
@@ -521,7 +521,7 @@
             "Target" = "8:_56E592E421B9481F93F2E8F620A5D929"
             "Folder" = "8:_1591A5602C4740B793D84881D38B2FB5"
             "WorkingFolder" = "8:_D94F421943E0464695E6D81452035308"
-            "Icon" = "8:_0B4A8035437C439B88DDA90D7D1599D2"
+            "Icon" = "8:_00CBC8FFC1AE4100B3AB3201F524A1EC"
             "Feature" = "8:"
             }
         }
