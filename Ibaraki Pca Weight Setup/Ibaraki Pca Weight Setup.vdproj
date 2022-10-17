@@ -375,15 +375,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:茨城 (プレキャス) 重量"
-        "ProductCode" = "8:{FF7D8F5D-3156-4690-B97E-E1C873BB66B9}"
-        "PackageCode" = "8:{A0A7AA53-1667-484B-A8F5-8B1264F7FCAB}"
+        "ProductCode" = "8:{49552626-4C1A-4F46-BD7D-46DBDD217631}"
+        "PackageCode" = "8:{67827C41-0D58-499E-9C04-F73BA59DBC2B}"
         "UpgradeCode" = "8:{7EED3D0A-6BD6-433B-95CB-D0C84AD9046E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.12"
+        "ProductVersion" = "8:22.10.17"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -935,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_56E592E421B9481F93F2E8F620A5D929"
             {
-            "SourcePath" = "8:..\\Ibaraki Pca Weight\\obj\\Release\\Ibaraki Pca Weight.exe"
+            "SourcePath" = "8:..\\Ibaraki Pca Weight\\obj\\Debug\\Ibaraki Pca Weight.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D94F421943E0464695E6D81452035308"
