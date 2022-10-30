@@ -193,6 +193,7 @@ Friend Module Util
         If choosen = 1 Then
             PubDModVal(xlApp, "126", "900×曲（H250）×900", 3.5, DtlDInp(vbTab & "D16: "))
             PubDModVal(xlApp, "127", "D13", "750×曲（H250）×750", 2, DtlDInp(vbTab & "D13: "))
+            PubDModVal(xlApp, "125", "D10", "（斜筋）", "600×曲（H250）×600", 0.9, DtlDInp(vbTab & "D10: "))
         End If
     End Sub
 
